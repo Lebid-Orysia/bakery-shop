@@ -4,32 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bakery Shop</title>
 </head>
 
 <body>
     <section id="hero">
-        <header>
-            <h1>shop <b>bakery</b></h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#traditions">Наші традиції</a>
-                    </li>
-                    <li>
-                        <a href="#chefs">Шеф-кухарі</a>
-                    </li>
-                    <li>
-                        <a href="#formats">Формати</a>
-                    </li>
-                    <li>
-                        <a href="#contacts">Контакти</a>
-                    </li>
-                </ul>
-            </nav>
-            <button>Замовити дзвінок</button>
-        </header>
-        <h2>Сучасна пекарня</h2>
+        <div class="bg-img">
+            <header>
+                <h1>SHOP <br><b>BAKERY</b></h1>
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="#traditions">Наші традиції</a>
+                        </li>
+                        <li>
+                            <a href="#chefs">Шеф-кухарі</a>
+                        </li>
+                        <li>
+                            <a href="#formats">Формати</a>
+                        </li>
+                        <li>
+                            <a href="#contacts">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header-btn">Замовити дзвінок</button>
+            </header>
+            <h2 class="header-h"><span>Сучасна </span>пекарня</h2>
+        </div>
         <ul class="features">
             <li>Великий попит на ринку</li>
             <li>Доступні за бюджетом формати</li>
@@ -37,74 +49,90 @@
         </ul>
     </section>
     <section id="traditions">
-        <h2>Новий формат традицій</h2>
-        <p><strong>shop bakery </strong>— це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та
-            натуральність інгредієнтів.</p>
-        <p>
-            Ми працюємо як найвідоміші мережі—
-            <strong>5 хвилин і замовлення готове.</strong>
-            А ще у наших пекарень стильний дизайн
-            та висока якість обслуговування!
-        </p>
+        <div class="traditions-text">
+            <h2>Новий формат <br>
+                традицій</h2>
+            <p><span>SHOP BAKERY</span>— це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та
+                натуральність інгредієнтів.</p>
+            <p>
+                Ми працюємо як найвідоміші мережі— <br>
+                <span>5 хвилин і замовлення готове.</span><br>
+                А ще у наших пекарень стильний дизайн <br>
+                та висока якість обслуговування!
+            </p>
+        </div>
+        <img src="./img/Mask group.png" alt="men-holding-bread">
     </section>
     <section id="chefs">
         <h2>
-            Наші найкращі
-            <em>шеф -кухарі</em>
+            Наші найкращі <br>
+            <hr class="hr-left">
+            <span><em>шеф-кухарі</em></span>
+            <hr class="hr-right">
         </h2>
         <ul class="chefs">
-            <li>
-                <h4>Настя</h4>
-                <p>Привіт, я Настя!</p>
-                <p>Вже 10 років, я втілюю у життя цікаві та смачні ідеї.</p>
-                <p>Я випeчу для вас найсмачніші вироби!</p>
-            </li>
-            <li>
-                <h4>Влад</h4>
-                <p>Привіт, я Влад!</p>
-                <p>Мій кодитерський стаж вже 18 років. SHOP BEKERY - це наша любов, з якою ми ділимось кожен раз з Вами через нашу
-                    випічку!</p>
-                <p>Я зроблю для вас унікальну начинку на будь який смак!</p>
-            </li>
+            <div>
+                <li class="chefs-list">
+                    <img src="./img/Mask group-girl.png" alt="girl chef" class="img-girl">
+                    <img src="./img/Rectangle 5073.png" alt="#" class="img-border-girl">
+                    <div class="girl">
+                        <h4>Настя</h4>
+                        <p>Привіт, я Настя!</p>
+                        <p>Вже 10 років, я втілюю у життя цікаві та смачні ідеї.</p>
+                        <p>Я випeчу для вас найсмачніші вироби!</p>
+                    </div>
+                </li>
+            </div>
+            <div>
+                <li class="chefs-list">
+                    <img src="./img/Mask group.-man.png" alt="man chef" class="img-man">
+                    <img src="./img/Rectangle 5073.png" alt="#" class="img-border-man">
+                    <div class="man">
+                        <h4>Влад</h4>
+                        <p>Привіт, я Влад!</p>
+                        <p>Мій кодитерський стаж вже 18 років. SHOP BEKERY - це наша любов, з <br>якою ми ділимось кожен
+                            раз з Вами через нашу випічку!</p>
+                        <p>Я зроблю для вас унікальну начинку<br> на будь який смак!</p>
+                    </div>
+                </li>
+            </div>
         </ul>
     </section>
-    <h2>Формати</h2>
-    <h4>Walrus</h4>
-    <dl>
-        <dt>Площа:</dt>
-        <dd>до 120 м2</dd>
-        <dt>Меню:</dt>
-        <dd>розширене меню</dd>
-        <dt>Штат:</dt>
-        <dd>2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</dd>
-        <dt>Посадкові місця:</dt>
-        <dd>є</dd>
-    </dl>
+    <h2 class="formats-header">Формати</h2>
+    <section class="formats">
+        <button class="arrow"><span>&larr;</span></button>
+        <div class="format-walrus">
+            <h4>Walrus</h4>
+            <dl>
+                <dt>Площа: до 120 м2</dt>
+                <dt>Меню: розширене меню</dt>
+                <dt>Штат: 2 продавці-касири, 2 пекарі, 2 <br>помічники пекаря, 2 офіціанти-різнороби</dt>
+                <dt>Посадкові місця: є</dt>
 
-    <h4>Horseshoe</h4>
-    <dl>
-        <dt>Площа:</dt>
-        <dd>до 25 м2</dd>
-        <dt>Меню:</dt>
-        <dd>найпопулярніші позиції меню</dd>
-        <dt>Штат:</dt>
-        <dd>2 продавці-касири, 2 пекарі, 1 помічник пекаря</dd>
-        <dt>Посадкові місця:</dt>
-        <dd>відсутні</dd>
-    </dl>
+            </dl>
+        </div>
 
-    <h4>Handlebar</h4>
-    <dl>
-        <dt>Площа:</dt>
-        <dd>до 15 м2</dd>
-        <dt>Меню:</dt>
-        <dd>найпопулярніші позиції меню</dd>
-        <dt>Штат:</dt>
-        <dd>1 продавець, 1 пекар, 1 помічник пекаря</dd>
-        <dt>Посадкові місця:</dt>
-        <dd>відсутні</dd>
-    </dl>
+        <div class="format-horseshoe">
+            <h4>Horseshoe</h4>
+            <dl>
+                <dt>Площа: до 25 м2</dt>
+                <dt>Меню: найпопулярніші позиції меню</dt>
+                <dt>Штат: 2 продавці-касири, 2 пекарі,<br>1 помічник пекаря</dt>
+                <dt>Посадкові місця: відсутні</dt>
+            </dl>
+        </div>
 
+        <div class="format-handlebar">
+            <h4>Handlebar</h4>
+            <dl>
+                <dt>Площа: до 15 м2</dt>
+                <dt>Меню: найпопулярніші позиції меню</dt>
+                <dt>Штат: 1 продавець, 1 пекар, 1 помічник <br>пекаря</dt>
+                <dt>Посадкові місця: відсутні</dt>
+            </dl>
+        </div>
+        <button type="button" class="arrow"><span>&rarr;</span></button>
+    </section>
     <form action="">
         <h2>Приєднуйся до мережі пекарень</h2>
         <p>Заповни форму, щоб ми звʼязались з тобою!</p>
@@ -142,7 +170,8 @@
                 <a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a>
             </li>
             <li>
-                <a href="https://maps.app.goo.gl/dj9Cj9Rdp1wTj3Z28" target="_blank">Україна, м. Київ, вул. Січових Стрільців 54</a>
+                <a href="https://maps.app.goo.gl/dj9Cj9Rdp1wTj3Z28" target="_blank">Україна, м. Київ, вул. Січових
+                    Стрільців 54</a>
             </li>
         </ul>
         <div>
