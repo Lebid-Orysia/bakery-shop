@@ -133,21 +133,23 @@
         </div>
         <button type="button" class="arrow"><span>&rarr;</span></button>
     </section>
-    <form action="">
-        <h2>Приєднуйся до мережі пекарень</h2>
-        <p>Заповни форму, щоб ми звʼязались з тобою!</p>
-        <label for="name">Ім’я</label>
-        <input type="text" id="name" name="name" required>
-        <label for="phone">Телефон</label>
-        <input type="tel" id="phone" name="phone" required>
-        <label for="email">Електронна пошта</label>
-        <input type="email" id="email" name="email" required>
-        <button>Замовити дзвінок</button>
-        <p>Натискаючи на кнопку я погоджуюсь з політикою конфіденційності</p>
-    </form>
+    <div class="contacts">
+        <form action="" class="contacts-form">
+            <h2>Приєднуйся до мережі пекарень</h2>
+            <p>Заповни форму, щоб ми звʼязались з тобою!</p>
+            <input type="text" id="name" name="name" placeholder="Ім’я" required>
+            <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+            <input type="email" id="email" name="email" placeholder="Електронна пошта" required>
+            <div class="contacts-btn">
+                <button>Замовити дзвінок</button>
+                <p>Натискаючи на кнопку я погоджуюсь з <br><a href="#">політикою конфіденційності</a></p>
+            </div>
+        </form>
+        <img src="./img/Rectangle 5074.png" alt="map with address">
+    </div>
 
-    <footer>
-        <h3>shop bakery</h3>
+    <footer class="footer">
+        <h3>SHOP <br><b>BAKERY</b></h3>
         <ul>
             <li>
                 <a href="">Франшиза</a>
@@ -170,11 +172,16 @@
                 <a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a>
             </li>
             <li>
-                <a href="https://maps.app.goo.gl/dj9Cj9Rdp1wTj3Z28" target="_blank">Україна, м. Київ, вул. Січових
+                <a href="https://maps.app.goo.gl/dj9Cj9Rdp1wTj3Z28" target="_blank">Україна, м. Київ, <br> вул. Січових
                     Стрільців 54</a>
             </li>
+            <li>
+                <a href=""><img src="./img/facebook_black_logo_icon_147136 1.png" alt="facebook_black_logo_icon"></a>
+        
+                <a href=""><img src="./img/instagram_black_logo_icon_147122 1.png" alt="instagram_black_logo_icon"></a>
+            </li>
         </ul>
-        <div>
+        <div class="footer-copyright">
             <a href="">Політика конфіденційності</a>
             <p class="copyright">© 2022 Дані захищені</p>
         </div>
